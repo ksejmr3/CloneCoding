@@ -1,0 +1,282 @@
+body {
+    min-width: 1200px;
+    background: #fff;
+}
+
+#header {
+    height: 126px;
+    background: #fff;
+}
+
+#header .inner {
+    position: relative;
+    width: 1200px;
+    height: 126px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 42px;
+}
+
+.logo a {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d9;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.gnb {
+    padding-top: 65px;
+    margin-left: 330px;
+}
+
+.gnb ul {
+    display: flex;
+    gap: 56px;
+}
+
+.gnb a {
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.util {
+    position: absolute;
+    right: 0;
+    top: 17px;
+    display: flex;
+    gap: 19px;
+}
+
+.util a {
+    color: #333;
+    font-size: 13px;
+}
+
+#subVisual {
+    height: 298px;
+    background: url("../f/form.png") no-repeat center -126px;
+    background-size: 1600px auto;
+}
+
+#content {
+    padding: 128px 0 126px;
+}
+
+.join {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.join-title {
+    position: relative;
+    padding-bottom: 21px;
+    border-bottom: 2px solid #222;
+}
+
+.join-title h3 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.join-title span {
+    position: absolute;
+    right: 0;
+    bottom: 54px;
+    color: #222;
+    font-size: 14px;
+}
+
+em {
+    color: #ff6b55;
+    font-style: normal;
+}
+
+legend {
+    position: absolute;
+    left: -9999px;
+}
+
+.join-table {
+    width: 100%;
+}
+
+.join-table caption {
+    position: absolute;
+    left: -9999px;
+}
+
+.join-table .col-title {
+    width: 168px;
+}
+
+.join-table th,
+.join-table td {
+    height: 40px;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.join-table th {
+    font-weight: 400;
+}
+
+.join-table tr.line th,
+.join-table tr.line td {
+    border-top: 1px solid #ddd;
+}
+
+input,
+select,
+button {
+    box-sizing: border-box;
+    height: 31px;
+    font-family: inherit;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+input,
+select {
+    border: 1px solid #aaa;
+    padding: 0 8px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+.join-table td > input {
+    width: 150px;
+}
+
+.btn-small {
+    min-width: 68px;
+    padding: 0 10px;
+    border: 1px solid #aaa;
+    background: #f7f7f7;
+    color: #111;
+    cursor: pointer;
+}
+
+.desc {
+    margin-left: 8px;
+    color: #333;
+    font-size: 15px;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.email-field input {
+    width: 150px;
+}
+
+.email-field select {
+    width: 150px;
+}
+
+.address-field {
+    padding: 6px 0 10px;
+    vertical-align: top;
+}
+
+.address-top {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.address-top input {
+    width: 92px;
+}
+
+.address-detail {
+    display: block;
+    width: 650px;
+}
+
+.join-table .agree th,
+.join-table .agree td {
+    height: auto;
+    padding: 14px 0 15px;
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.agree p {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.agree label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 130px;
+    font-size: 15px;
+}
+
+.agree input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.join-table .site-agree th,
+.join-table .site-agree td {
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+
+.join-table .brand-row th,
+.join-table .brand-row td {
+    height: auto;
+    padding: 14px 0 15px;
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.btn {
+    width: 126px;
+    height: 42px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn.submit {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+#footer {
+    height: 240px;
+    background: #303030;
+}
