@@ -106,7 +106,7 @@ button:focus {
 
 @font-face {
     font-family: 'handel gothic';
-    src: url(../font/handelgothic.ttf) format('truetype');
+    src: url('../font/handel gothic.ttf') format('truetype');
 }
 
 /* layout */
