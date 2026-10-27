@@ -61,12 +61,6 @@ body {
     font-size: 13px;
 }
 
-#subVisual {
-    height: 298px;
-    background: url("../f/form.png") no-repeat center -126px;
-    background-size: 1600px auto;
-}
-
 #content {
     padding: 128px 0 126px;
 }
