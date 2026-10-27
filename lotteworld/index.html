@@ -51,16 +51,51 @@
             </header>
             <!-- //header -->
 
-            <section id="hero"></section>
+            <section id="hero" class="swiper hero-slider" aria-label="롯데월드 이미지 슬라이드">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/mainCon1Bg_t1_img.jpg" alt="전통 전시 공간의 불상과 석조 조각" fetchpriority="high" loading="eager" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/mainCon1Bg_t2_img.jpg" alt="전통 유물인 범종" loading="eager" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/mainCon1_bg.jpg" alt="전통 가옥과 생활 공간을 재현한 모형촌" loading="eager" />
+                    </div>
+                </div>
+                <button class="hero-arrow hero-prev" type="button" aria-label="이전 이미지">
+                    <i class="xi-angle-left" aria-hidden="true"></i>
+                </button>
+                <button class="hero-arrow hero-next" type="button" aria-label="다음 이미지">
+                    <i class="xi-angle-right" aria-hidden="true"></i>
+                </button>
+                <div class="hero-pagination" aria-label="슬라이드 페이지"></div>
+            </section>
             <!-- //hero -->
 
             <main id="content" class="main">
                 <section class="con1">
-                    <div class="inner"></div>
+                    <div class="inner">
+                        <div class="con1-copy">
+                            <p class="con1-eyebrow">LOTTE WORLD FOLK MUSEUM</p>
+                            <h2>DISCOVER OUR<br />HERITAGE</h2>
+                            <p class="con1-description">
+                                한국의 역사와 전통문화가 살아 숨 쉬는 공간.<br />
+                                다양한 전시와 이야기를 통해 우리 문화의 가치를 만나보세요.
+                            </p>
+                            <p class="con1-note">연습용 소개 문구</p>
+                            <a class="con1-cta" href="#exhibitions">
+                                EXPLORE MUSEUM <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                        <figure class="con1-media">
+                            <img src="images/mainCon1_img1.jpg" alt="전시 공간에 놓인 전통 불상" />
+                        </figure>
+                    </div>
                 </section>
                 <!-- //con1 -->
 
-                <section class="con con2">
+                <section id="exhibitions" class="con con2">
                     <div class="inner">
                         <h2>세월 속 문화를 즐길 수 있는 전시</h2>
                         <p>현재 진행 중인 전시를 알아보세요.</p>
